@@ -172,9 +172,12 @@ body{
     background-color: #2F303A;
 }
 
-.logo{}
+.logo-contacts{
+    color: var(--color-white);
+}
 
 .contacts-adress {
+    font-style: normal;
 }
 
 .contacts-list {
@@ -183,6 +186,10 @@ body{
 
 .contacts-item {}
 
+.contacts-link:hover,
+.contacts-link:focus{
+    color: var(--color-blue);
+}
 .contacts-link {
     font-weight: 400;
     font-size: 14px;
@@ -207,6 +214,9 @@ body{
 .examples-btn:hover,
 .examples-btn:focus {
     color: var(--color-blue)
+}
+.examples-btn:active{   
+    background-color:var(--color-blue)
 }
 
 .examples-btn {
